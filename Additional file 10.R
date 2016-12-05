@@ -1,3 +1,5 @@
+ library("lmerTest")
+
  q=read.csv("Data/Species data 2.csv")
  
  
