@@ -1,4 +1,6 @@
- d=read.csv("Data/Species data 1.csv") 
+ library("lmerTest")
+
+d=read.csv("Data/Species data 1.csv") 
  d[,"Preterm.birth.outcome"]=as.numeric(d[,"Preterm.birth.outcome"])
  
  da=NULL
